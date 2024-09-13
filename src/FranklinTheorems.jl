@@ -49,7 +49,7 @@ module ExportConfigPath
 
 \\newenvironment{$(defn_name)}[2]{
 	\\stepcounter{Num$(defn_name)}
-	\\begin{thmBlock}{$(defn_titlecase) \\arabic{Num$(defn_name)}}{#1}{$(defn_titlecase)}{ \\fakebiblabel{!#2 @ $(defn_titlecase) \\arabic{Num$(defn_name)}} }
+	\\begin{thmBlock}{$(defn_titlecase) \\arabic{Num$(defn_name)}}{#1}{ \\fakebiblabel{!#2 @ $(defn_titlecase) \\arabic{Num$(defn_name)}} }
 }{
 	\\end{thmBlock}
 }

@@ -1,12 +1,12 @@
 
 \newcommand{\franklinhtml}[1]{~~~!#1~~~}
 
-\newenvironment{thmBlock}[4]{
+\newenvironment{thmBlock}[3]{
 	\franklinhtml{
 		<div class="theorem">
-			<h2 class="theorem-header" id="}!#4\franklinhtml{">
+			<h2 class="theorem-header" id="}!#3\franklinhtml{">
 				<a href="#}!#4\franklinhtml{">}#1: #2\franklinhtml{</a>
-				<div class="theorem-type">}#3\franklinhtml{</div>
+				<div class="theorem-type">}\franklinhtml{</div>
 			</h2>
 			<div class="theorem-content">
 	}
