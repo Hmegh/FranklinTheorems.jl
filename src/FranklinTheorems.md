@@ -9,10 +9,11 @@
 				<div class="theorem-type">}\franklinhtml{</div>
 			</h2>
 			<div class="theorem-content">
+			<em>
 	}
 }
 {
-	\franklinhtml{
+	\franklinhtml{</em>
 		</div></div>
 	}
 }
