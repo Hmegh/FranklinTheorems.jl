@@ -38,6 +38,7 @@ Then, you can create definitions, theorems, and lemmas:
 \begin{definition}{The Name of The Defined}{label-name}
 	This is the body of the definition.
 	$$17 + 9$$
+	
 	_You **can** include styling and math in the body of the definition._
 \end{definition}
 ```
